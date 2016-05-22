@@ -39,7 +39,7 @@ void loop() {
   lcd.setCursor(0, 1); // put the cursor on line 2
   lcd.print("Humidity: "); // print to the display again
   lcd.print(h);
-  lcd.print(" %");
+  lcd.print("%");
   Serial.println("printing humidity...");
   lcd.setCursor(0,0); // put the cursor back to line 1
 }
