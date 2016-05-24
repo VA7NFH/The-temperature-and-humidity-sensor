@@ -1,18 +1,18 @@
-This is a temperature and humidity sensor that displays the information on a 16x2 Hitachi HD44780 driven LCD (e.g. adafruit pid:1447) via an arduino.
+This is a temperature and humidity sensor that displays the information on a 16x2 Hitachi HD44780 driven LCD (e.g. adafruit pid:1447) via an arduino. NOTE: you must use arduino IDE version 1.0.5 for uploading to work
 
   The circuit:
- * LCD RS pin to digital pin 7
- * LCD Enable pin to digital pin 8
- * LCD D4 pin to digital pin 9
- * LCD D5 pin to digital pin 10
- * LCD D6 pin to digital pin 11
- * LCD D7 pin to digital pin 12
+ * LCD RS pin to arduino digital pin 7
+ * LCD Enable pin to arduino digital pin 8
+ * LCD D4 pin to arduino digital pin 9
+ * LCD D5 pin to arduino digital pin 10
+ * LCD D6 pin to arduino digital pin 11
+ * LCD D7 pin to arduino digital pin 12
  * LCD R/W pin to ground
  * 10K variable resistor:
  * ends to +5V and ground
  * wiper to LCD VO pin (pin 3)
  * DTH22 Temperature and humidity sensor (adafruit pid 393):
- * data pin to digital pin 2
+ * data pin to arduino digital pin 2
  * VCC to 3.3V
  * ground to ground
 
