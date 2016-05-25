@@ -1,4 +1,4 @@
-This is a temperature and humidity sensor that displays the information on a 16x2 Hitachi HD44780 driven LCD (e.g. adafruit pid:1447) via an arduino. NOTE: you must use arduino IDE version 1.0.5 for uploading to work
+This is a temperature and humidity sensor that displays the information on a 16x2 Hitachi HD44780 driven LCD (e.g. adafruit pid:1447) via an arduino. NOTE: you must use arduino IDE version 1.0.5 for uploading to work.
 
   The circuit:
  * LCD RS pin to arduino digital pin 7
@@ -31,3 +31,6 @@ For this code to work you will first have to move the libraries folder supplied 
  You should have received a copy of the GNU Lesser General Public
  License along with this library; if not, write to the Free Software
  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+ 
+ library copyright for the DHT library is adafruit.
+ library copyright for the liquidcrystal library is adafruit and arduino.
