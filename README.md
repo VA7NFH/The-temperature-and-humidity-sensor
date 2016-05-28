@@ -1,4 +1,4 @@
-This is a temperature and humidity sensor that displays the information on a 16x2 Hitachi HD44780 driven LCD (e.g. adafruit pid:1447) via an arduino. NOTE: you must use arduino IDE version 1.0.5 for uploading to work else you will have an avr g++ error while compiling.
+This is a temperature and humidity sensor that displays the information on a 16x2 Hitachi HD44780 driven LCD (e.g. adafruit pid:1447) via an arduino and using an AM2302 sensor. NOTE: you must use arduino IDE version 1.0.5 for uploading to work else you will have an avr g++ error while compiling.
 
   The circuit:
  * LCD RS pin to arduino digital pin 7
