@@ -34,7 +34,8 @@ void loop() {
   }
   lcd.print("Temp: "); // print to the display
   lcd.print(t);
-  lcd.print("*C  ");
+  lcd.print(char(223)); // print the degrees symbol
+  lcd.print("C")
   Serial.println("printing temperature...");
   lcd.setCursor(0, 1); // put the cursor on line 2
   lcd.print("Humidity: "); // print to the display again
