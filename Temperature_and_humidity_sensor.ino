@@ -49,6 +49,7 @@ void loop() {
     lcd.print("   from DHT22   ");
     return;
   }
+  lcd.setCursor(0, 0);
   lcd.print("Temp: "); // print to the display
   lcd.print(t);
   lcd.print(char(223)); // print the degrees symbol
