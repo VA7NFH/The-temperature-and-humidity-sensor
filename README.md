@@ -19,4 +19,4 @@ This is a temperature and humidity sensor that displays the information on a 16x
  * VCC to 3.3V
  * ground to ground
 
-For this code to work you will first have to move the libraries folder supplied with this into your sketchbook folder so the Arduino IDE can use the libraries and then restart the IDE (for more information on installing libraries see http://arduino.cc/en/Guide/Libraries)
+For this code to work you will first have to install the libraries required so the Arduino IDE can use the libraries and then restart the IDE (for more information on installing libraries see http://arduino.cc/en/Guide/Libraries)
